@@ -1,5 +1,5 @@
 # preload
-Inclusão de Preload nas páginas com JS
+Inclusão de Preload nas páginas usando JS.
 
 Estes arquivos servem para incluir o Preload disponibilizado pelo framework MaterializeCss.
 
