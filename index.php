@@ -35,9 +35,11 @@
     </head>
 
     <body>
-
+        <!-- Configuração do Preload - Estou usando o Preload que muda de cor e é exeuctado por 3 segundos antes de abrir a página-->
         <div class="preloader-background">
+            <!-- Tamanho do circulo - BIG - Podendo ser Small -->
             <div class="preloader-wrapper big active">
+                <!-- Cor numero 01 -->
                 <div class="spinner-layer spinner-blue">
                     <div class="circle-clipper left">
                         <div class="circle"></div>
@@ -50,6 +52,7 @@
                     </div>
                 </div>
 
+                <!-- Cor numero 02 -->
                 <div class="spinner-layer spinner-green">
                     <div class="circle-clipper left">
                         <div class="circle"></div>
@@ -62,6 +65,7 @@
                     </div>
                 </div>
 
+                <!-- Cor numero 03 -->
                 <div class="spinner-layer spinner-red">
                     <div class="circle-clipper left">
                         <div class="circle"></div>
@@ -76,6 +80,7 @@
             </div>
         </div>
 
+        <!-- A partir daqui pode ter a página normalmente -->
         <div class="main">
             <nav>
                 <div class="nav-wrapper">
@@ -105,7 +110,9 @@
                 </div>
             </div>
         </div>
+        <!-- A página vem até aqui - MAIN -->
 
+        <!-- Configuracao do tempo que o Preload estará sendo executado -->
         <script>
             document.addEventListener("DOMContentLoaded", function(){
                 $('.preloader-background').delay(3000).fadeOut('slow');
